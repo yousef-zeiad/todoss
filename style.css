@@ -1,0 +1,118 @@
+body {
+ font:sans-serif;
+ color:rgba(0,0,0,.5);
+ text-align:center;
+ text-transform: uppercase;
+ letter-spacing: .5em;
+ top: 15%;
+ background: linear-gradient(to right,red,yellow);
+}
+
+h1 {
+	font:600 3.5em ,sans-serif;
+	color:rgba(0,0,0,.5);
+	text-align:center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+}
+
+button {
+    border-radius: 5px;
+    color: white;
+    text-align:right;
+    background-color: #0f5897;
+    padding: 15px 32px;
+    border-radius: 12px; 
+}
+
+  button:hover {
+    animation-name: background-color;
+    animation-duration: 500ms;
+    animation-fill-mode:forwards;
+  }
+ 
+
+h4 {
+
+    font:900 3.5em ,sans-serif; 
+	color:rgba(0,0,0,.5);
+	text-align:center;
+    text-transform: none;
+    letter-spacing: .01em;
+} 
+ 
+
+ h3 {
+
+    font:900 3.5em ,sans-serif;
+    font-family: italic
+    color:rgba(0,0,0,.5);
+    text-align:center;
+    text-transform: none;
+    letter-spacing: .01em;
+
+}
+
+ div{
+     text-align: center;
+     font-size:25px;
+ }
+
+#user{
+    border-radius: 5px;
+    min-width: 40%;
+    padding: 6px;
+    border: none;
+    margin: 2px  2px  10px 1px;
+    font-size: 20px;
+}
+
+
+ul {
+    text-align: left;
+    margin-top: 10px;
+}
+
+
+li {
+    list-style: none;
+    padding: 10px 20px;
+    color: #ffffff;
+    text-transform: capitalize;
+    font-weight: 600;
+    border: 2px solid #025f70;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-right: 450px;
+    margin-left: 350px;
+    justify-content: center;
+    background: #4EB9CD;
+    transition: all 0.75s ease;
+
+}
+
+li:hover {
+    background: #76CFE0;
+}
+
+li > button {
+    font-weight: normal;
+    background: none;
+    border: none;
+    padding: 10px 10px 10px 10px;
+    float: right;
+    color: #025f70;
+    font-weight:800;
+}
+
+
+.done {
+    background: #51DF70 !important;
+    color: #00891E;
+}
+
+.delete {
+    display: none;
+
+}
+
